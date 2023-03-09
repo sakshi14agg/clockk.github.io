@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+html,body{
+    background-image: url('image/clock.jpg');
+    background-repeat :no-repeat;
+    background-size: cover;
+    background-position:center center;
+    color: #fff;
+    height: 100vh;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin: 0;
+    overflow:hidden;
+
+
+}
+#time {
+    font-weight: bold;
+}
